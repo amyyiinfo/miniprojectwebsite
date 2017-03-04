@@ -1,4 +1,4 @@
-
+<@% language = "VBSCRIPT" %>
 <html>
 <head>
     <title>Submit</title>
