@@ -5,43 +5,119 @@
 	<title>amy yi info</title> <!-- -->
 	<meta name="description" content="Amy Yi's Website"> <!-- -->
 	
-	<link rel="stylesheet" type="text/css" href="styles.css" /> <!-- link to css file -->
+	<link rel="stylesheet" type="text/css" href="styles2.css" /> <!-- link to css file -->
 	<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css"> <!-- import a new font from google fonts website -->
 	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 
 	
 </head>
 <body>
+
+<!-- ------------------------------MENU BAR---------------------------- --> 
+
 	<div class="menubar">
-		<ul id="nav">
-			<li><a href="#about">about</a></li>
+		<ul id="menubar">
+			<li><a class="rollover" href="#about">about</a></li>
 			<li>&#9670;</li>
 			<li><a href="#portfolio">portfolio</a></li>
 			<li>&#9670;</li>
 			<li><a href="#contact">contact</a></li>	
 		</ul>
 	</div>
+	
+<!-- ------------------------------LOGO---------------------------- --> 
+	
 	<div class="logo">
 		amyyi
 	</div>
+	
 	<div class="characteristics">
-		industrious &#9670; innovative &#9670; inquisitive
+		industrious 
+		<span class="crimson">&#9670;</span> 
+		innovative 
+		<span class="crimson">&#9670;</span> 
+		inquisitive
 	</div>
+
+<!-- ------------------------------ABOUT ME---------------------------- --> 
+	
 	<div class="aboutme" id="about">
 		Hello some text.<br /> 
 		BL<br />
 		etc<br />
 	</div>
-	<div class="contact" id="contact">
-		<form action="submit.asp" method="post"> <!--the method action allows us to execute a webpage or something once the form is submitted-->
-			name:<br />
-			<input type="text" name="firstname"><br />
-			email:<br />
-			<input type="text" name="email"><br />
-			comments:<br />
-			<input type="text" name="comments"><br />
-			<input type="submit" value="Submit"><br /><br />
-		</form>
+		
+<!-- ------------------------------PORTFOLIO---------------------------- --> 
+	
+		
+	<div class="portfoliologo">portfolio</div>
+	
+	<div class="portfolio">
+		
+		<div class="img">
+			<a target="_blank" href="images/titlepage.jpg">
+			<img src="images/titlepage.jpg" alt="Title Page" width="300" height="300">
+			</a>
+			<div class="desc">A short story book detailing some of the fundamental elements of typography.</div>
+		</div>
+
+		<div class="img">
+			<a target="_blank" href="images/stem.jpg">
+			<img src="images/stem.jpg" alt="Stem" width="300" height="300">
+			</a>
+			<div class="desc">A stroke which is vertical or diagonal.</div>
+		</div>
+	
+		<div class="img">
+			<a target="_blank" href="images/crossbar.jpg">
+			<img src="images/crossbar.jpg" alt="Crossbar" width="300" height="300">
+			</a>
+			<div class="desc">The horizontal stroke on the characters ‘A’, ‘H’, ‘T’, ‘e’, ‘f’, ‘t’.</div>
+		</div>
+    </div>
+	<div class="portfolio">
+		<div class="img">
+			<a target="_blank" href="images/ascender.jpg">
+			<img src="images/ascender.jpg" alt="Ascender" width="300" height="300">
+			</a>
+			<div class="desc">The lowercase character stroke which extends above the x-height.</div>
+		</div>
+	
+		<div class="img">
+			<a target="_blank" href="images/tail.jpg">
+			<img src="images/tail.jpg" alt="Tail" width="300" height="300">
+			</a>
+			<div class="desc">The stroke on the letter Q or the descending diagonal stroke on Ks or Rs.</div>
+		</div>
+	
+		<div class="img">
+			<a target="_blank" href="images/descender.jpg">
+			<img src="images/descender.jpg" alt="Descender" width="300" height="300">
+			</a>
+			<div class="desc">The lowercase character stroke which extends below the baseline.</div>
+		</div>
+	
+	</div>
+		
+	
+	
+	
+
+<!-- ------------------------------CONTACT---------------------------- --> 
+	
+	<div class="contactlogo">contact</div>
+	<div>
+		<div class="contact" id="contact">
+		</br>
+			<form action="submit.asp" method="post"> <!--the method action allows us to execute a webpage or something once the form is submitted-->
+				name:<br />
+				<input type="text" name="name"><br />
+				email:<br />
+				<input type="text" name="email"><br />
+				comments:<br />
+				<input id="comments" type="text" name="comments"><br /><br />
+				<input class="submit" type="submit" value="Submit"><br /><br />
+		</div>
 	</div>
 
 </body>
