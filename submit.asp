@@ -7,9 +7,9 @@
 </head>
 <body>
     <% 
-	response.write(request.form("name"))
-	response.write(request.form("email"))
-	response.write(request.form("comments"))
+	response.write(request.querystring("name"))
+	response.write(request.querystring("email"))
+	response.write(request.querystring("comments"))
 	%>
 </body>
 </html>
