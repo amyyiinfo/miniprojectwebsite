@@ -40,11 +40,14 @@
 	</div>
 
 <!-- ------------------------------ABOUT ME---------------------------- --> 
+	<div class="aboutmelogo">about me</div>
 	
 	<div class="aboutme" id="about">
-		Hello some text.<br /> 
-		BL<br />
-		etc<br />
+		<img class="centered" src="images/portrait.jpg" alt="Portrait" width="400" height="400">
+		</br>My name is Amy Yi, I'm currently a NPower Canada program participant, and this is my website!<br /> 
+		</br>I've been fascinated with technology for as long as I could remember; I would always watch my father type on the computer and sneakily bang on the keyboard whenever he wasn't looking :)<br />
+		</br>I love learning about everything and anything; I eat information for breakfast lunch and dinner. Pertaining to technology, I currently hold a strong interest in artificial intelligence and machine learning so I hope to one day participate in an AI project.
+		<br /><br /><br /><br />
 	</div>
 		
 <!-- ------------------------------PORTFOLIO---------------------------- --> 
@@ -53,8 +56,47 @@
 	<div class="portfoliologo">portfolio</div>
 	
 	<div class="portfolio">
+	
+		<table>
+			<tr>
+				<td>
+					<a target="_blank" href="images/titlepage.jpg"><img src="images/titlepage.jpg" alt="Title Page" width="300" height="300"></a>
+				</td>
+				<td>
+					<a target="_blank" href="images/stem.jpg"><img src="images/stem.jpg" alt="Stem" width="300" height="300"></a>
+				</td>
+				<td>
+					<a target="_blank" href="images/crossbar.jpg"><img src="images/crossbar.jpg" alt="Crossbar" width="300" height="300"></a>
+				</td>
+			</tr>
+			
+			<tr class="captions">
+				<td class="captions">A short story book detailing some of the fundamental elements of typography.</td>
+				<td class="captions">A stroke which is vertical or diagonal.</td>
+				<td class="captions">The horizontal stroke on the characters ‘A’, ‘H’, ‘T’, ‘e’, ‘f’, ‘t’.</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a target="_blank" href="images/ascender.jpg"><img src="images/ascender.jpg" alt="Ascender" width="300" height="300"></a>
+				</td>
+				<td>
+					<a target="_blank" href="images/tail.jpg"><img src="images/tail.jpg" alt="Tail" width="300" height="300"></a>
+				</td>
+				<td>
+					<a target="_blank" href="images/descender.jpg"><img src="images/descender.jpg" alt="Descender" width="300" height="300"></a>
+				</td>
+			</tr>
+			
+			<tr class="captions">
+				<td class="captions">The lowercase character stroke which extends above the x-height.</td>
+				<td class="captions">The stroke on the letter Q or the descending diagonal stroke on Ks or Rs.</td>
+				<td class="captions">The lowercase character stroke which extends below the baseline.</td>
+			</tr>
+			
+		</table>
 		
-		<div class="img">
+		<!--<div class="img">
 			<a target="_blank" href="images/titlepage.jpg">
 			<img src="images/titlepage.jpg" alt="Title Page" width="300" height="300">
 			</a>
@@ -95,7 +137,7 @@
 			<img src="images/descender.jpg" alt="Descender" width="300" height="300">
 			</a>
 			<div class="desc">The lowercase character stroke which extends below the baseline.</div>
-		</div>
+		</div>-->
 	
 	</div>
 		
@@ -106,20 +148,26 @@
 <!-- ------------------------------CONTACT---------------------------- --> 
 	
 	<div class="contactlogo">contact</div>
-	<div>
+	
+	<table class="contact">
+		<tr>
+		<td class="expand"></td>
+		<td>
 		<div class="contact" id="contact">
 		</br>
-			<form action="https://amyyiinfo.github.io/miniprojectwebsite/submit.asp" method="post" name = "form1"> <!--the method action allows us to execute a webpage or something once the form is submitted-->
+			<form action="submit.asp" method="get"> <!--the method action allows us to execute a webpage or something once the form is submitted-->
 				name:<br />
-				<input type="text" name="name1"><br />
+				<input type="text" name="name"><br />
 				email:<br />
 				<input type="text" name="email"><br />
 				comments:<br />
 				<input id="comments" type="text" name="comments"><br /><br />
 				<input class="submit" type="submit" value="Submit"><br /><br />
-				</form>
 		</div>
-	</div>
+		</td>
+		<td class="expand"></td>
+		</tr>
+	</table>
 
 </body>
 </html>
