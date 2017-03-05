@@ -60,10 +60,28 @@ li {
 
 /* --------------------ABOUT ME-----------------------*/
 
+.aboutmelogo {
+	font-family: 'Pacifico', cursive;
+	color: #000000;
+	font-size: 100px;
+	text-align: center;
+	background-color: #FFFFFF;
+	height: 150px; 
+}
 .aboutme
 {
-	font-size: 40px;
+	font-size: 20px;
 	font-family: Roboto, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	text-align: center;
+}
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* --------------------PORTFOLIO-----------------------*/
@@ -79,47 +97,39 @@ li {
 
 .portfolio {
 	background-color: #cc0000;
-	height: 600px;
-	padding-left: 25px;
+	height: 900px;
+}
 	
+table {
+	margin-left: auto;
+	margin-right: auto;
 }
 
-div.img {
-    float: left;
-	margin: 20px;
-    border: none;
-    width: 200px;
+td {
+	padding: 20px;
 }
 
-div.img:hover {
-    border: none;
-}
-
-div.img img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
+tr.captions {
+	text-align: center;
 	font-family: Roboto, sans-serif;
 	color: #FFFFFF;
 	font-size: 15px;
 }
 
-
+td.captions {
+	width: 300px;
+}
 
 	
 /* --------------------CONTACT-----------------------*/
 
-.contactlogo {
+div.contactlogo {
 	font-family: 'Pacifico', cursive;
 	color: #FFFFFF;
 	font-size: 100px;
 	text-align: center;
 	background-color: #00cc99;
-	height: 200px;
+	height: 150px;
 }
 
 .contact {
@@ -128,11 +138,22 @@ div.desc {
 	font-size: 18px;
 	color: #FFFFFF;
 	text-align: left;
-	padding: 50px;
-	background-color: #00cc99;
-	height: 375px;
+	
+	
 }
 
+table.contact {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #00cc99;
+	height: 300px;
+	
+}
+	
+td.expand {
+	width: 50%
+}
+	
 input[type=text], select {
     width: 300px;
 	height: 25px;
@@ -144,9 +165,7 @@ input[type=text], select {
     box-sizing: border-box;
 }
 
-#comments {
-	height: 100px;
-}
+
 
 input[type=text]:focus {
     border: 3px solid #cc0000;
